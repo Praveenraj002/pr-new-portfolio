@@ -135,9 +135,7 @@ body {
   padding-top: 20px;
 }
 
-.bottom {
-  height: 400px;
-}
+
 
 .abt-para {
   color: whitesmoke;
@@ -186,4 +184,104 @@ a {
   color: whitesmoke;
   font-size: large;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.tech-title{
+  font-weight: bold;
+  color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+.stack-container{
+  margin: 30px;
+  margin-top: 50px;
+}
+
+.stack-cards{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 60px;
+}
+
+.grey-img{
+  background-color: #222222;
+  width: 40%;
+  height: 130px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+#card-name{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#css-name{
+  text-align: center;
+}
+
+#js-name{
+  text-align: center;
+  color: whitesmoke;
+  font-size: large;
+  margin-top: 15px;
+}
+
+#html{
+  width: 100px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+#py{
+  width: 60%;
+  margin: 10px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+#py-name{
+   text-align: center;
+  color: whitesmoke;
+  font-size: large;
+  margin-top: 30px;
+}
+
+#css{
+  width: 70px;
+  margin: 30px;
+  margin-top: 25px;
+}
+
+#js{
+  width: 60%;
+  margin: 20px;
+  margin-left: 27px;
+  margin-top: 25px;
+}
+
+#bootstrap{
+  width: 70%;
+  margin: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.bottom {
+  height: 800px;
 }
