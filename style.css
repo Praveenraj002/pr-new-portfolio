@@ -6,14 +6,14 @@
 
 /* BODY */
 
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   background-color: black;
 }
 
 /* NAVBAR */
 
-#navbar{
+#navbar {
   background-color: black;
   width: 100%;
   height: 80px;
@@ -22,34 +22,92 @@ body{
   justify-content: space-between;
 }
 
-.nav-icon{
+.nav-icon {
   width: 70px;
   margin-left: 10px;
 }
 
-.hamburger-menu{
-  background-color: #3195FF;
+.hamburger-menu {
+  background-color: #3195ff;
   width: 80px;
   padding-left: 25px;
   padding-top: 25px;
 }
 
-#ham-icon{
+#ham-icon {
   color: whitesmoke;
 }
 
 /* SECTION  */
+.bg-img {
+  position: relative;
+}
 
-.Landing_image{
+.Landing_image {
   margin-top: 80px;
   width: 100%;
-  height: 600px;
+  height: 580px;
   opacity: 0.3;
 }
 
+.main-content {
+  margin: 40px;
+}
+
+.head-name {
+  position: absolute;
+  top: 130px;
+}
+
+.main-name {
+  color: #3195ff;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.main-phrase {
+  position: absolute;
+  top: 180px;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: whitesmoke;
+}
+
+.web {
+  color: #3195ff;
+}
+
+.main-para{
+  position: absolute;
+  top: 300px;
+  color: whitesmoke;
+  /* font-weight: bold; */
+  font-size: x-large;
+  margin-right: 20px;
+}
+
+.main-btn{
+  position: absolute;
+  top:550px;
+  left: 120px;
+  align-items: center;
+}
+
+.resume-btn{
+  color: whitesmoke;
+  background-color: #3195ff;
+  border: none;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family:"Poppins", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+}
 
 
-
-.bottom{
-  height: 500px;
+.bottom {
+  height: 400px;
 }
